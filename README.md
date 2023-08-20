@@ -1,6 +1,6 @@
 # Fighter Plane Game
 
-Welcome to the Fighter Plane Game, a project created using Qt 5.15. This game utilizes Qt Widgets, QGraphicsScene, QGraphicsPixmapItem, and features key events and media player for an interactive gaming experience.
+Welcome to the Fighter Plane Game, a project created using Qt 5.15. This game utilizes Qt Widgets, QGraphicsScene, QGraphicsPixmapItem, and features key events and media player for an interactive gaming experience. It stores player high-scores in local SQLITE database. 
 
 ## Screenshots and GIFs
 
@@ -20,6 +20,7 @@ Welcome to the Fighter Plane Game, a project created using Qt 5.15. This game ut
 - Graphics rendering using QGraphicsScene and QGraphicsPixmapItem.
 - Interactive gameplay with key events for controlling the fighter plane.
 - Sound effects and background music using the Qt MediaPlayer.
+- Saving Top 10 scores in local SQLITE database.
 
 ## How to Run
 
