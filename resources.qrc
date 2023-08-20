@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/sound">
+        <file>Resources/sound/bgMusic.mp3</file>
+        <file>Resources/sound/explosion.mp3</file>
+        <file>Resources/sound/bulletSound.mp3</file>
+        <file>Resources/sound/buttonChange.mp3</file>
+        <file>Resources/sound/gameOver.mp3</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>Resources/img/bg.png</file>
+        <file>Resources/img/bullet.png</file>
+        <file>Resources/img/enemy.png</file>
+        <file>Resources/img/player.png</file>
+        <file>Resources/img/destroyed.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Resources/style.qss</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,131 @@
+
+QPushButton#startButton,#highScoreButton,#exitButton,#backButton{
+    background-color : #030b07 ;
+    color: #00C853;
+    font : 20px ;
+    border: 1px solid #00C853;
+}
+
+QPushButton#startButton:hover,#highScoreButton:hover,#exitButton:hover,#backButton:hover{
+    background-color : #00C853 ;
+    color: #FFFFFF;
+    font : 25px ;
+    border: 1px solid #00C853;
+}
+
+QPushButton#startButton:focus,#highScoreButton:focus,#exitButton:focus,#backButton:focus{
+    background-color : #00C853 ;
+    color: #FFFFFF;
+    font : 25px ;
+    border: 1px solid #00C853;
+}
+
+QPushButton#backButton{
+    padding : 10px 30px 10px 30px ;
+}
+
+QPushButton#backButton:hover{
+    padding : 5px 25px 5px 25px ;
+}
+
+QPushButton#backButton:focus{
+    padding : 5px 25px 5px 25px ;
+}
+
+QLabel#playerNameLabel{
+    background-color : #030b07 ;
+    color : #00C853 ;
+    font : 20px ;
+    border: 1px solid #00C853 ;
+}
+
+QLineEdit#textEditForName{
+    background-color : #030b07 ;
+    color : #00C853 ;
+    font : 20px ;
+    border: 1px solid #00C853 ;
+}
+
+QLineEdit#textEditForName:focus{
+    background-color : #030b07 ;
+    color : #00C853 ;
+    font : 25px ;
+    border: 1px solid #00C853 ;
+}
+
+QWidget{
+    background-color : #030b07 ;
+    color : #00C853 ;
+}
+
+QMessageBox QPushButton{
+    background-color : #030b07 ;
+    color: #00C853;
+    font : 15px ;
+    border: 1px solid #00C853;
+    padding : 5px ;
+}
+
+QMessageBox QPushButton:hover{
+    background-color : #00C853 ;
+    color: #FFFFFF;
+    font : 15px ;
+    border: 1px solid #00C853;
+    padding : 5px ;
+}
+
+QMessageBox QPushButton:focus{
+    background-color : #00C853 ;
+    color: #FFFFFF;
+    font : 15px ;
+    border: 1px solid #00C853;
+    padding : 5px ;
+}
+
+QLabel#scoreLabel{
+background-color : #030b07 ;
+color: #00C853;
+font : 20px ;
+border: 1px solid #00C853;
+padding : 10px 30px 10px 30px ;
+}
+
+QListWidget#scoreListWidget{
+background-color : #030b07 ;
+color: #00C853;
+font : 30px ;
+border: 1px solid #00C853;
+padding : 10px 30px 10px 30px ;
+}
+
+QListWidget#scoreListWidget::item{
+background-color : #00C853 ;
+color: #FFFFFF;
+font : 20px ;
+border: 1px solid #00C853;
+margin : 8px ;
+}
+
+QLabel#scoreListSNo,#scoreListNameLabel,#setScoreLabel{
+background-color : #00C853 ;
+color: #FFFFFF;
+font : 20px ;
+border: 1px solid #00C853;
+}
+
+QLabel#gameOverLabel{
+background-color : #030b07 ;
+color : #00C853 ;
+font : 40px ;
+border: 1px solid #00C853 ;
+padding : 10px 30px 10px 30px ;
+}
+
+
+QScrollBar#scoreVerticalScroll{
+background-color : #78909C ;
+}
+
+QScrollBar#ScorehorizontalScroll{
+background-color : #78909C ;
+}
